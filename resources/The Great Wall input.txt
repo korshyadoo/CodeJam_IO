@@ -1,0 +1,25 @@
+2
+2
+0 3 0 2 10 2 3 -2
+10 3 2 3 8 7 2 0
+3
+1 2 0 5 10 2 8 0
+0 3 0 1 7 1 2 2
+3 3 0 5 1 1 4 0
+
+
+
+ The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing a single integer N: the number of the tribes attacking the Wall. N lines follow, each describing one tribe. The ith line contains eight integers di, ni, wi, ei, si, delta_di, delta_pi and delta_si separated by spaces, describing a single nomadic tribe:
+
+    di – the day of the tribe's first attack (where 1st January, 250BC, is considered day 0)
+    ni – the number of attacks from this tribe
+    wi, ei – the westmost and eastmost points respectively of the Wall attacked on the first attack
+    si – the strength of the first attack
+    delta_di – the number of days between subsequent attacks by this tribe
+    delta_pi – the distance this tribe travels to the east between subsequent attacks (if this is negative, the tribe travels to the west)
+    delta_si – the change in strength between subsequent attacks
+
+1. Number of cases
+CASES (variable length)
+2. Number of tribes (N) (number of lines to follow)
+3 - x. tribe info

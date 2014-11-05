@@ -1,0 +1,43 @@
+6
+3 3 1
+###
+#X#
+###
+3 3 2
+###
+#X#
+###
+4 3 8
+###
+#X#
+#.#
+###
+7 7 4
+#######
+#.....#
+#.....#
+#..X..#
+#....##
+#.....#
+#######
+5 6 3
+######
+#..X.#
+#.#..#
+#...##
+######
+5 6 10
+######
+#..X.#
+#.#..#
+#...##
+######
+
+
+
+The first line of the input gives the number of test cases, T. T test cases follow. Each test case starts with a line containing three space-separated integers, H, W and D. H lines follow, and each contains W characters. The characters constitute a map of the Hall of Mirrors for that test case, as described above. 
+
+1. Number of cases
+CASES (variable length)
+2. H, W, D (H is number of subsequent lines)
+3 - x. map

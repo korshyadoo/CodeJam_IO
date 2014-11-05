@@ -1,0 +1,57 @@
+CodeJamFileReader
+- singleton
+- retrieves input file name from properties file
+- retrieves number of pre-case lines from properties file
+- reads input file, and passes information in line format
+
+CaseHelper
+- singlton
+- when created, it uses a CodeJameFileIO to retrieves the list of lines in the input file
+- it then stores the pre-case lines and,
+- separates the remaining lines into case objects
+
+
+Case (Interface)
+
+
+
+
+StoreCreditCase implements Case
+
+
+TODO:
+- In the StoreCreditCase class, make it so that when setLines is called, it adjusts all necessary properties to reflect the change
+- ensure StoreCreditCase.credit is never null so that hashCode won't fail
+- test StoreCreditCase.equals (not sure if prices is compared properly)
+- Every single case only has one pre-case lines (containing the number of cases)
+- Every single case length value represents the number of lines following that line (never the absolute total number of lines in the case
+
+
+Design 2:
+- You create a CaseHelper object
+- From the CaseHelper, you can retrieve an ArrayList containing the lines of code
+- For lines that are space separated, you can pass them to a CaseHelper helper method that processes them into an ArrayList of tokens
+
+CaseHelper
+- Singleton
+- When constructed, it uses a CodeJamFileIO to read the lines from the input file. It stores the lines in an ArrayList. It also reads the number of lines per case from the properties file and stores as a field, and retrieves the number of cases from the input file, based on the location of the information provided in the properties file, and stores it as a field
+
+
+Pattern:
+1. Number of cases
+CASES
+2. Credit amount
+3. Number of items in the store
+4. [space separated] List of prices
+REPEAT CASES
+
+Pattern:
+1. Number of cases
+CASES
+1. [space separated] Size of mote and number of motes
+2-?. 
+
+
+
+Design 3:
+- Have a CaseRetriever interface. Classes will have a method called retrieveCases(List<String> lines) that splits the cases based on how the case length is determined. A few generic ones can be created (static case length, dynamic case length with length in first line, etc.), but if an unusual scenario comes up a custom case will have to be written for the problem

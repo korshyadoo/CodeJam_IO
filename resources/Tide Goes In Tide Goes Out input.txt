@@ -1,0 +1,40 @@
+4
+200 1 2
+250 233
+180 100
+100 3 3
+500 500 500
+500 500 600
+500 140 1000
+10 10 10
+10 10 490
+10 10 10
+100 3 3
+500 100 500
+100 100 500
+500 500 500
+10 10 10
+10 10 10
+10 10 10
+100 2 2
+1000 1000
+1000 1000
+100 900
+900 100
+
+
+
+
+    The first line will contain a single integer, T: the number of test cases
+    It is followed by T test cases, each starting with a line containing integers H, N and M, representing the initial water level height, in centimeters, and the map dimensions. The following 2N lines contain the ceiling and floor heights as follows:
+        The next N lines contain M space-separated integers each. The jth integer in the ith row represents Cij, the height of the ceiling in centimeters at grid location (j, i), where increasing i coordinates go South, and increasing j coordinates go East.
+        The next N lines contain M space-separated integers representing the heights of the floor, in the same format.
+    At the starting location, there will always be at least 50 cm of air between the ceiling and the starting water level, and at least 50 cm between the ceiling and the floor.
+    The exit location will always have at least 50 cm of air between the ceiling and the floor.
+    There will always be a way out (you got in, after all!). 
+	
+	
+1. Number of cases
+CASES (variable, line number multiplier)
+2. H, N, M (N * 2 lines follow)
+3 - x. info

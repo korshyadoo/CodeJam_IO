@@ -1,0 +1,3 @@
+Removed CaseFileIO
+Updated retrieveCases
+Not yet fully tested

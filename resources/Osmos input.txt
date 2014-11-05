@@ -1,0 +1,17 @@
+4
+2 2
+2 1
+2 4
+2 1 1 6
+10 4
+25 20 9 100
+1 4
+1 1 1 1
+
+
+The first line of the input gives the number of test cases, T. T test cases follow. The first line of each test case gives the size of Armin's mote, A, and the number of other motes, N. The second line contains the N sizes of the other motes. All the mote sizes given will be integers. 
+
+1. Number of cases
+CASES (static length)
+2. Size of mote (A), number of motes (N)
+3. N number of motes

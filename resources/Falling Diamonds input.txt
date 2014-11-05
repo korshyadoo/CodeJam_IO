@@ -1,0 +1,15 @@
+7
+1 0 0
+1 0 2
+3 0 0
+3 2 0
+3 1 1
+4 1 1
+4 0 2
+
+
+The first line of the input gives the number of test cases, T. T lines follow. Each line contains three integers: the number of falling diamonds N, and the position X, Y of the place you are interested in. Note the place that you are interested in buying does not have to be at or near the ground. 
+
+1. Number of cases
+CASES (static length)
+2. 3 ints

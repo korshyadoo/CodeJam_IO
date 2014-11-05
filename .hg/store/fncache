@@ -1,0 +1,34 @@
+data/src/nf/co/korshyadoo/CodeJam/io/ProgramLauncher.java.i
+data/src/nf/co/korshyadoo/CodeJam/ProgramLauncher.java.i
+data/src/nf/co/korshyadoo/CodeJam/DefaultCase.java.i
+data/src/nf/co/korshyadoo/CodeJam/EmbeddedLengthCaseRetriever.java.i
+data/resources/Tide Goes In Tide Goes Out input.txt.i
+data/src/nf/co/korshyadoo/CodeJam/io/StaticCaseLength.java.i
+data/src/nf/co/korshyadoo/CodeJam/io/EmbeddedWithAdditionCaseLength.java.i
+data/src/nf/co/korshyadoo/CodeJam/io/DefaultCaseRetriever.java.i
+data/src/nf/co/korshyadoo/CodeJam/io/Case.java.i
+data/resources/Garbled Email input.txt.i
+data/.project.i
+data/src/nf/co/korshyadoo/CodeJam/io/EmbeddedCaseLength.java.i
+data/notes.txt.i
+data/resources/fileIO.properties.i
+data/src/nf/co/korshyadoo/CodeJam/CaseHelper.java.i
+data/resources/Out of Gas input.txt.i
+data/src/nf/co/korshyadoo/CodeJam/io/CaseLength.java.i
+data/src/nf/co/korshyadoo/CodeJam/Case.java.i
+data/src/nf/co/korshyadoo/CodeJam/CaseRetriever.java.i
+data/resources/Falling Diamonds input.txt.i
+data/src/nf/co/korshyadoo/CodeJam/io/DefaultCase.java.i
+data/resources/Hall of Mirrors input.txt.i
+data/src/nf/co/korshyadoo/CodeJam/io/CaseRetriever.java.i
+data/src/nf/co/korshyadoo/CodeJam/io/CodeJamFileIO.java.i
+data/src/nf/co/korshyadoo/CodeJam/StaticLengthCaseRetriever.java.i
+data/src/nf/co/korshyadoo/CodeJam/io/EmbeddedWithMultiplierCaseLength.java.i
+data/resources/Osmos input.txt.i
+data/resources/input.in.i
+data/src/nf/co/korshyadoo/CodeJam/CodeJamFileIO.java.i
+data/src/nf/co/korshyadoo/CodeJam/LengthFirstCaseRetriever.java.i
+data/src/nf/co/korshyadoo/CodeJam/StoreCreditCase.java.i
+data/.classpath.i
+data/resources/The Great Wall input.txt.i
+data/.settings/org.eclipse.jdt.core.prefs.i
