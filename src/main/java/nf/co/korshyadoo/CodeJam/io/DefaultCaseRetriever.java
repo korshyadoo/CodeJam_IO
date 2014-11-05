@@ -132,8 +132,7 @@ public class DefaultCaseRetriever implements CaseRetriever {
 		 */
 		public List<String> retrieveLines() {
 			List<String> lines = new ArrayList<>();
-			Path file = Paths.get(inputFileLocation);
-			try (InputStream in = Files.newInputStream(file); BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+			try (InputStream in = getClass().getClassLoader().getResourceAsStream(inputFileLocation); BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
 				String line = null;
 				while ((line = reader.readLine()) != null) {
 					lines.add(line);

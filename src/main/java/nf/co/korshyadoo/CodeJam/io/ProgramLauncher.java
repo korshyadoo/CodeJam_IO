@@ -3,8 +3,8 @@ package nf.co.korshyadoo.CodeJam.io;
 import java.util.List;
 
 public class ProgramLauncher {
-	private static final String INPUT_FILE_LOCATION = "resources/Falling Diamonds input.txt";
-	private static final String OUTPUT_FILE_LOCATION = "resources/output.out";
+	private static final String INPUT_FILE_LOCATION = "input.in";
+	private static final String OUTPUT_FILE_LOCATION = "src//main//resources//output.out";
 	private static StringBuilder output = new StringBuilder();
 
 	public static void main(String[] args) {
@@ -41,8 +41,10 @@ public class ProgramLauncher {
 	private static void printCase(Case c) {
 		for(int y = 0; y < c.size(); y++) {
 			System.out.println(c.get(y));
+			output.append(c.get(y));
+			output.append("\n");
 		}
 		System.out.println("*************");
-		
+		output.append("*************\n");
 	}
 }
