@@ -1,5 +1,7 @@
 package nf.co.korshyadoo.CodeJam.io;
 
+import java.util.List;
+
 /**
  * Represents a single case in the input file
  * @author korshyadoo
@@ -18,4 +20,8 @@ public interface Case {
 	 * @return The number of lines in the {@code Case}.
 	 */
 	int size();
+	
+	void add(Case addend);
+	
+	public List<String> getLines();
 }

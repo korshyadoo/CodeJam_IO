@@ -1,5 +1,6 @@
 package nf.co.korshyadoo.CodeJam.io;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DefaultCase implements Case {
@@ -16,6 +17,20 @@ public class DefaultCase implements Case {
 	@Override
 	public int size() {
 		return lines.size();
+	}
+
+	@Override
+	public void add(Case addend) {
+		List<String> newLines = addend.getLines();
+		for(String newLine : newLines) {
+			lines.add(newLine);
+		}
+		
+	}
+
+	@Override
+	public List<String> getLines() {
+		return new ArrayList<String>(lines);
 	}
 
 }
