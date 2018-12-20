@@ -10,7 +10,7 @@ public class ProgramLauncher {
 	public static void main(String[] args) {
 		//STEP ONE
 		//Create a CaseLength. If it is static, use a StaticCaseLength and pass the case length
-		CaseLength length = new StaticCaseLength(1);
+		CaseLength length = new StaticCaseLength(2);
 		
 		//Otherwise, use one of the embedded case length types
 		CaseLength embedded = new EmbeddedCaseLength(0, 0);
@@ -38,7 +38,7 @@ public class ProgramLauncher {
 		System.out.println("done");
 	}
 	
-	private static void printCase(Case c) {
+	public static void printCase(Case c) {
 		for(int y = 0; y < c.size(); y++) {
 			System.out.println(c.get(y));
 			output.append(c.get(y));
