@@ -29,8 +29,8 @@ public class ProgramLauncher {
 		//STEP THREE
 		//Retrieve the cases from the CaseRetriever
 		List<Case> cases = caseRetriever1.retrieveCases();
-		for(Case c : cases) {
-			printCase(c);
+		for(Case _case : cases) {
+			printCase(_case);
 		}
 		
 		
